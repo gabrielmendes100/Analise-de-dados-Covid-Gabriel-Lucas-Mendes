@@ -1,6 +1,6 @@
 from fpdf import FPDF
 
-title = 'Lockdown: Um Método Eficiente no combate ao Covid-19'
+title = 'Lockdown: Um Método Eficiente na Luta Contra a Covid-19'
 
 
 class PDF(FPDF):
