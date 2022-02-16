@@ -6,7 +6,7 @@ title = 'Lockdown: Um Método Eficiente na Luta Contra a Covid-19'
 class PDF(FPDF):
 
     def header(self):
-        pdf.set_font('Times', '', 18)
+        pdf.set_font('Times', '', 14)
         pdf.cell(-200,0, txt='Gabriel Lucas Colangelo Mendes')
         self.ln(10)
         self.image('kick.png',185,4, 26)
